@@ -28,6 +28,15 @@
 	<true/>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app requires access to photo library to upload user profile picture</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>https</string>
+		<string>http</string>
+		<string>itms</string>
+		<string>itms-beta</string>
+		<string>itms-apps</string>
+		<string>mailto</string>
+	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
